@@ -149,7 +149,6 @@ const CreateNft = () => {
               updateFormParams({ ...formParams, name: e.target.value })
             }
           />
-          <div className="description">Description</div>
           <textarea
             minLength="10"
             required
@@ -164,7 +163,6 @@ const CreateNft = () => {
               updateFormParams({ ...formParams, description: e.target.value })
             }
           />
-          <div className="price">Price</div>
           <input
             type="text"
             placeholder="price"
@@ -181,6 +179,7 @@ const CreateNft = () => {
             Select file
             <br />
             <input
+              className="text-white"
               ref={inputFileRef}
               type="file"
               onChange={(e) => setSelectedFile(e.target.files[0])}

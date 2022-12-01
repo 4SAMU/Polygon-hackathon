@@ -63,14 +63,14 @@ export default function MyAssets() {
     router.push(`/resell-nft?id=${nft.tokenId}&tokenURI=${nft.tokenURI}`);
   }
   if (loadingState === "loaded" && !nfts.length)
-    return <h1 className="py-10 px-20 text-3xl">No NFTs owned</h1>;
+    return <h1 className="py-10 px-20 text-3xl text-white">No NFTs owned</h1>;
   return (
     <div className="flex justify-center">
       <div className="p-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {nfts.map((nft, i) => (
             <div key={i} className="border shadow rounded-xl overflow-hidden">
-              <img src={nft.image} className="rounded" />
+              <img src={nft.image} className="rounded" alt="" />
               <div className="p-4 bg-black">
                 <p className="text-2xl font-bold text-white">
                   Price - {nft.price} Eth
