@@ -87,6 +87,14 @@ function MyApp({ Component, pageProps }) {
             <option>Select Network</option>
             <option value="80001">Polygon Matic</option>
           </select>
+          <a
+            href="https://mumbai.polygonscan.com/address/0x9c94B22944c65467E160bdD4726B85253E357798#code"
+            target="_blank"
+            rel="noreferrer"
+            className="ml-10  bg-blue-500 text-white font-bold py-2 px-12 rounded"
+          >
+            Verified Contract
+          </a>
         </div>
       </nav>
       <Component {...pageProps} />
