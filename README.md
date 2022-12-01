@@ -81,5 +81,4 @@ module.exports = {
 
 # verified contract
 
-[Verified contract](https://mumbai.polygonscan.com/address/0x9c94B22944c65467E160bdD4726B85253E357798#code)
-
+click here to confirm [Verified contract](https://mumbai.polygonscan.com/address/0x9c94B22944c65467E160bdD4726B85253E357798#code)
