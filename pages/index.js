@@ -111,7 +111,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-4 bg-black">
-                <p className="text-2xl font-bold text-white">{nft.price} ETH</p>
+                <p className="text-2xl font-bold text-white">
+                  {nft.price} MATIC
+                </p>
                 {currAddress === nft.owner || currAddress === nft.seller ? (
                   <button className="mt-4 w-full bg-blue-500 text-white font-bold py-2 px-12 rounded">
                     You own this
