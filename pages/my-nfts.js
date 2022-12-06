@@ -73,7 +73,7 @@ export default function MyAssets() {
               <img src={nft.image} className="rounded" alt="" />
               <div className="p-4 bg-black">
                 <p className="text-2xl font-bold text-white">
-                  Price - {nft.price} Eth
+                  Price - {nft.price} MATIC
                 </p>
                 <button
                   className="mt-4 w-full bg-blue-500 text-white font-bold py-2 px-12 rounded"

@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "verify": "npx hardhat verify 0x9c94B22944c65467E160bdD4726B85253E357798 --network mumbai"
+    
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.1.1",
